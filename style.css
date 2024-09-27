@@ -1,0 +1,36 @@
+.container {
+    background-color: lightblue;
+    height: 500px;
+    padding: 10px;
+    justify-content: space-evenly;
+    display: flex;
+    border-radius: 15px;
+}
+
+.child-container {
+    background-color: salmon;
+    text-align: center;
+    display: flex;
+    padding: 80px;
+    border-radius: 15px;
+}
+
+.A {
+    align-self: flex-start;  
+}
+
+.B {
+    align-self: stretch;  
+}
+
+.C {
+    align-self: center;  
+}
+
+.D {
+    align-self: end;  
+}
+
+.E {
+    align-self: flex-start;  
+}
